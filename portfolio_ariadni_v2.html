@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ariadni Vakami — Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { 
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
+        margin:0; padding:0; color:#111; 
+        background: linear-gradient(135deg, #FF4500, #FF8C00); /* red-orange satin */ 
+        font-weight:bold; font-size:18px;
+    }
+    .hero { background: rgba(255,255,255,0.1); padding:48px 24px; text-align:center; border-radius:12px; margin:24px;}
+    .container { max-width:960px; margin:0 auto; padding:24px; }
+    .grid { display:grid; grid-template-columns: 1fr; gap:16px; }
+    @media(min-width:800px){ .grid{grid-template-columns: 1fr 320px; align-items:start} }
+    .card { background:rgba(255,255,255,0.2); padding:18px; border-radius:12px; }
+    img.profile { width:100%; border-radius:12px; object-fit:cover; }
+    a.button { display:inline-block; margin-top:12px; padding:10px 16px; border-radius:8px; text-decoration:none; border:1px solid #fff; color:#fff; }
+    ul.projects { list-style:none; padding:0; margin:0; }
+    ul.projects li { margin:10px 0; }
+    footer { text-align:center; padding:24px 12px; color:#fff; font-size:14px; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 style="margin:0; font-size:32px;">Hello — I'm <strong>Ariadni Vakami</strong></h1>
+      <p style="margin-top:8px; color:#fff;">Pastry Chef · Multilingual · Property & Website Owner</p>
+      <a href="#contact" class="button">Contact me</a>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:20px;">
+    <div class="grid">
+      <section class="card">
+        <h2>About</h2>
+        <p>I'm a 26-year-old pastry chef who studied in the UK (West London College) and Jessica Cakes Madrid. 
+        I've lived, studied, and worked in 4 countries: South Africa, the UK, France, Spain, and Greece. 
+        Multilingual and passionate about culture, I speak five languages. In addition to pastry, I'm also a property & website owner.</p>
+
+        <h3 style="margin-top:16px;">Selected projects</h3>
+        <ul class="projects">
+          <li><strong>Mediterranea Pastry</strong> — My pastry portfolio website. <a href="https://mediterraneapastry.carrd.co" target="_blank">Visit</a></li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <img class="profile" src="https://via.placeholder.com/600x400.png?text=Ariadni+Vakami" alt="Profile photo">
+        <h3 style="margin-top:12px;">Contact</h3>
+        <p>Email: <a href="mailto:contact@mediterraneapastry.carrd.co">contact@mediterraneapastry.carrd.co</a></p>
+        <p>Location: Based in Greece · International Experience</p>
+        <p style="margin-top:12px;">
+          <a href="https://twitter.com/" target="_blank">Twitter</a> ·
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </p>
+      </aside>
+    </div>
+
+    <section style="margin-top:18px;" class="card">
+      <h2>Skills</h2>
+      <p>Pastry Art, Culinary Innovation, Multilingual Communication, Property Management, Website Ownership</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Ariadni Vakami — Built with a template.
+  </footer>
+</body>
+</html>
